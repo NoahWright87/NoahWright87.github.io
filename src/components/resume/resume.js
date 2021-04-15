@@ -1,11 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+//import logo from './logo.svg';
+//import './App.css';
 
-<body>
+function Resume() {
+  return (
+    <div className="Resume">
+      <header className="Resume">
 <p>//TODO: Downloadable version(s) of boring, single-page resume</p>
 <p>//TODO: HTML version of resume that's much prettier </p>
 <h1>Overview / Major Achievements</h1>
@@ -18,5 +17,9 @@
 <p>List of awards and decorations</p>
 <h1>Volunteering</h1>
 <p>List of my past volunteer efforts</p>
-</body>
-</html>
+      </header>
+    </div>
+  );
+}
+
+export default Resume;
