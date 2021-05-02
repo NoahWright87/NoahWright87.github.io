@@ -1,0 +1,219 @@
+[
+  {
+    "category": "Work History",
+    "tags": [ "work" ],
+    "organization": "CGI Inc.",
+    "title": "Senior Software Engineer",
+    "location": "Montgomery, AL (Remote)",
+    "startdate": "2020-03-01T05:00:00.000Z",
+    "accomplishments": [
+      "Led effort to improve code reliability/maintainability. Used SonarQube to identify and correct over 250 issues",
+      "Agile/scrum programmer, responsible for code reviews, feature demos, and improving internal sites & services",
+      "Refactored legacy service to implement DI, enable automatic testing.  Increased code coverage from 0% to 70%)"
+    ],
+    "skills": [ "C#", "HTML", "JavaScript", "WCF", "Testing", "SQL" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work", "military" ],
+    "organization": "689th Network Operating Squadron, USAF Reserve",
+    "title": "Noncommisioned Officer in Charge, Tactics and Capabilities",
+    "location": "Gunter Annex, Maxwell AFB, AL",
+    "startdate": "2020-03-01T05:00:00.000Z",
+    "accomplishments": [ "Trained in security, network defense.  Participated in mission planning and execution exercises" ],
+    "skills": [ "CompTIA Security+" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work", "military" ],
+    "organization": "Airman Leadership School",
+    "title": "Professional Military Education Instructor",
+    "location": "Maxwell AFB, AL",
+    "startdate": "2016-03-01T05:00:00.000Z",
+    "enddate": "2020-02-01T05:00:00.000Z",
+    "accomplishments": [ "Earned AF Commendation Medal for meritorious service.  Delivered 4032 hours of instruction to 315 students", "Pioneered new learning management system. Developed course-creation process, saved 1400 manhours yearly", "Automated documentation & grading with JavaScript/Visual Basic. Taught 30% more students with less staff", "Implemented paperless graduation sign-up. Used PayPal to process over 2,000 reservations totaling $52,000" ],
+    "skills": [ "Public Speaking", "PowerPoint", "JavaScript", "Visual Basic", "Instruction" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work", "military" ],
+    "organization": "Headquarters, Air University",
+    "title": "Software Development Team Lead",
+    "location": "Maxwell AFB, AL",
+    "startdate": "2011-12-01T05:00:00.000Z",
+    "enddate": "2016-02-01T05:00:00.000Z",
+    "accomplishments": [ "Earned AF Achievement Medal for meritorious service and was HQ, Air University's 2015 Airman of the Year", "Led 4-person secure programming effort. Scanned 645,000 lines of code to identify and fix 262 vulnerabilities", "Corrected inefficiencies in legacy code. Utilized multithreading to cut processing time from 2 hours to 1 minute", "Beyond full stack: gathered requirements, wrote code, managed MSSQL DB, & deployed releases to production" ],
+    "skills": [ "C#", "HTML", "JavaScript", "DotNetNuke", "HP Fortify", "SQL" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work" ],
+    "organization": "Art Clem Enterprises",
+    "title": "Computer Programmer",
+    "location": "Cleveland, TN",
+    "startdate": "2008-07-01T04:00:00.000Z",
+    "enddate": "2011-05-01T04:00:00.000Z",
+    "accomplishments": [ "Utilized UPS/USPS web API's to choose shipping carriers.  Saved $20,000 in yearly labor, sped shipping time", "Designed RTML eCommerce site, managed Facebook page, and created auto-emailer to notify users of delivery", "Crafted rolling inventory system to prevent overselling & box-packing verification to guarantee order accuracy" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work", "military", "training" ],
+    "organization": "Basic Military Training",
+    "title": "Trainee",
+    "location": "Lackland AFB, TX",
+    "startdate": "2011-05-01T04:00:00.000Z",
+    "enddate": "2011-07-01T04:00:00.000Z",
+    "skills": [ "Leadership", "Fitness" ]
+  },
+  {
+    "category": "Work History",
+    "tags": [ "work", "military", "training" ],
+    "organization": "Computer Programmer Technical School",
+    "title": "Student",
+    "location": "Keesler AFB, MS",
+    "startdate": "2011-07-01T04:00:00.000Z",
+    "enddate": "2011-12-01T05:00:00.000Z",
+    "skills": [ "C#", "SQL" ]
+  },
+  {
+    "category": "Education",
+    "tags": "education",
+    "organization": "Trident University International",
+    "title": "Bachelor of Science, Computer Science",
+    "enddate": "2019-01-01T05:00:00.000Z",
+    "accomplishments": [ "Summa cum laude, 3.97 GPA" ]
+  },
+  {
+    "category": "Education",
+    "tags": [ "education", "military" ],
+    "organization": "Community College of the Air Force",
+    "title": "Associate's, Instructor of Technology & Military Science",
+    "enddate": "2017-01-01T05:00:00.000Z"
+  },
+  {
+    "category": "Education",
+    "tags": [ "education", "military" ],
+    "organization": "Community College of the Air Force",
+    "title": "Associate's, Computer Science Technology",
+    "enddate": "2015-01-01T05:00:00.000Z"
+  },
+  {
+    "category": "Training",
+    "tags": [ "education", "military" ],
+    "organization": "Enlisted Professional Military Education Instructor Course",
+    "location": "Gunter Annex, Maxwell AFB, AL",
+    "enddate": "2016-03-01T05:00:00.000Z",
+    "accomplishments": [ "Awarded Dean's List for academic performance.  One of the few Senior Airman to ever attend the course" ]
+  },
+  {
+    "category": "Training",
+    "tags": [ "military", "training" ],
+    "organization": "Airman Leadership School",
+    "location": "Maxwell AFB, AL",
+    "enddate": "2015-07-01T04:00:00.000Z"
+  },
+  {
+    "category": "Awards",
+    "tags": [ "military", "award" ],
+    "organization": "United States Air Force",
+    "title": "Achievement Medal",
+    "enddate": "2016-02-01T05:00:00.000Z"
+  },
+  {
+    "category": "Awards",
+    "tags": [ "military", "award" ],
+    "organization": "United States Air Force",
+    "title": "Commendation Medal",
+    "enddate": "2020-02-01T05:00:00.000Z"
+  },
+  {
+    "category": "Certifications",
+    "tags": [ "certification" ],
+    "organization": "CompTIA",
+    "title": "Security+",
+    "startdate": "2015-01-01T05:00:00.000Z",
+    "enddate": "2018-01-01T05:00:00.000Z"
+  },
+  {
+    "category": "Certifications",
+    "tags": [ "military", "certification" ],
+    "organization": "Community College of the Air Force",
+    "title": "Instructor Certification, Level 3",
+    "enddate": "2020-01-01T05:00:00.000Z",
+    "accomplishments": [ "Taught over 3000 total hours of CCAF-accredited courses" ]
+  },
+  {
+    "category": "Awards",
+    "tags": [ "award" ],
+    "organization": "ALFA Insurance",
+    "title": "BEAST (Building Exemplary Apps in a Short Timeframe) Award",
+    "startdate": "2020-10-01T04:00:00.000Z",
+    "enddate": "2020-12-01T05:00:00.000Z",
+    "accomplishments": [ "Nominated by peers for helpful demeanor and technical prowess" ]
+  },
+  {
+    "category": "Awards",
+    "tags": [ "award", "military" ],
+    "organization": "Headquarters, Air University",
+    "title": "Airman of the Year",
+    "enddate": "2015-12-01T05:00:00.000Z"
+  },
+  {
+    "category": "Awards",
+    "tags": [ "award", "military" ],
+    "organization": "Headquarters, Air University",
+    "title": "Airman of the Third Quarter",
+    "enddate": "2013-09-01T04:00:00.000Z"
+  },
+  {
+    "category": "Awards",
+    "tags": [ "military", "training" ],
+    "organization": "United States Air Force",
+    "title": "Resiliency Trainer Assistant course",
+    "enddate": "2015-01-01T05:00:00.000Z"
+  },
+  {
+    "category": "Volunteering",
+    "tags": [ "volunteering" ],
+    "organization": "Some school??",
+    "title": "Raspberry Pi Jam",
+    "enddate": "2021-01-01T05:00:00.000Z",
+    "accomplishments": [ "Advised high school students in utilizing Google speech-to-text API" ]
+  },
+  {
+    "category": "Volunteering",
+    "tags": [ "volunteering" ],
+    "organization": "Chisholm Elementary School",
+    "title": "Cleaning, painting, decorating",
+    "enddate": "2020-01-01T05:00:00.000Z",
+    "accomplishments": [ "Led 30-person painting/cleaning team" ]
+  },
+  {
+    "category": "Awards",
+    "tags": [ "award", "military" ],
+    "organization": "42nd Force Support Squadron",
+    "title": "NCO of the Fourth Quarter",
+    "enddate": "2016-12-01T05:00:00.000Z"
+  },
+  {
+    "category": "Volunteering",
+    "tags": [ "volunteering" ],
+    "organization": "Humane Society",
+    "title": "Dog Walking, animal grooming, cage cleaning",
+    "enddate": "2019-09-01T04:00:00.000Z",
+    "accomplishments": [ "Led 30-person team to care for animals at Montgomery Human Society" ]
+  },
+  {
+    "category": "Volunteering",
+    "tags": [ "volunteering" ],
+    "organization": "42nd Force Support Squadron",
+    "title": "Santa's Helpers",
+    "enddate": "2018-12-01T05:00:00.000Z"
+  },
+  {
+    "category": "Volunteering",
+    "tags": [ "volunteering" ],
+    "organization": "Breast Cancer Fundraising Walk",
+    "enddate": "2017-10-01T04:00:00.000Z"
+  }
+]

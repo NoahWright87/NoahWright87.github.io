@@ -1,0 +1,37 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* TODO: Are the above things used? */
+/* TODO: Probably won't use the below eventually - will use bootstrap later on */
+#footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+}
+
+#footer ul li {
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%;
+    margin: 5px
+}
