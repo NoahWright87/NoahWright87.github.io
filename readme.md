@@ -19,6 +19,7 @@ This is what was added in the most recent commits:
 
 ## 🤔 Planned for Next Commit
 These are the changes I'm working on *right now*:
+- ⚠ Fix resume JSON download - works locally, not when deployed
 - Formatting, so the site isn't so, so ugly.  Need to utilize bootstrap, even if it's just grayscale, and make the design responsive
 - Images
   - Photo of me somewhere on home page
