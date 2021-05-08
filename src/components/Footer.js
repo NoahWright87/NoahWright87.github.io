@@ -1,31 +1,36 @@
 import React, { Component } from 'react';
+import { Container, Button, ButtonGroup } from 'reactstrap';
+
+const centering = {
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center'
+};
 
 export class Footer extends Component {
     static displayName = Footer.name;
 
     render() {
         return (
-            <div>
+            <Container style={centering} >
                 <hr />
-                <div id="footer"> {/*TODO: This isn't exactly centered - fix it*/}
-                    <ul> {/*TODO: Loop through array of things?  Or is that overkill?*/}
-                        <FooterItem url="https://www.linkedin.com/in/noah-wright-dev/" name="LinkedIn" />
-                        <FooterItem url="https://github.com/NoahWright87" name="GitHub" />
-                    </ul>
-                </div>
-                <div style={{ textAlign: 'center' }}>
+                <ButtonGroup size="sm">
+                    <FooterItem url="https://www.linkedin.com/in/noah-wright-dev/" name="LinkedIn" />
+                    <FooterItem url="https://github.com/NoahWright87" name="GitHub" />
+                </ButtonGroup>
+                <Container>
                     <p>Want to peak behind the curtain? Check out <a href="https://github.com/NoahWright87/NoahWright87.github.io" target="_black" >this site's GitHub repo</a></p>
-                    <p>©2021 <a href="http://NoahWright.dev">NoahWright.dev</a></p>
-                </div>
-            </div>
+                    <p>&#169; {new Date().getFullYear()} <a href="http://NoahWright.dev">NoahWright.dev</a></p>
+                </Container>
+            </Container>
         );
     }
 }
 
 function FooterItem(props) {
     return (
-        <li>
-            <a href={props.url || "#"} target="_blank">{props.name || "UNDEFINED"}</a>
-        </li>
+        <Button href={props.url || "#"} target="_blank">
+            {props.name || "UNDEFINED"}
+        </Button>
     );
 }

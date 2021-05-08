@@ -1,32 +1,58 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
+//TODO: Create "howitsmade" component with popover, put it on this page as a "how it's done" and explain the technology used
+//  Then use it elsewhere as well
 
 export class Home extends Component {
     static displayName = Home.name;
 
-    
-
     render() {
         return (
             <div>
-                <h1>Noah Wright</h1>
-                <h2>Software Engineer, Air Force Veteran</h2>
-                <p>This is my website.  See the links below for cool stuff!</p>
-                <LinkCard title="Resume" linkUrl="resume" description="Read about my work history" />
-                <LinkCard title="Portfolio" linkUrl="portfolio" description="See examples of my work" />
-                <LinkCard title="About Me" linkUrl="about-me" description="Learn about the man behind the site" />
-                <LinkCard title="Contact Me" linkUrl="contact" description="Get in touch" />
+                <Container>
+                    <Jumbotron>
+                        <h1>I'm Noah - a software developer</h1>
+                        <p>Take a look around and see what I've been up to.  Think I'd be a good addition
+                            to your dev team or open source project?</p>
+                        <Button>Hit me up! //TODO: Actually link somewhere</Button>
+                    </Jumbotron>
+                </Container>
+                <Container>
+                    <Row>
+                        <Col sm="6">
+                            <HomeCard title="Resume" linkUrl="resume" description="Read about my work history" />
+                        </Col>
+                        <Col sm="6">
+                            <HomeCard title="Portfolio" linkUrl="portfolio" description="See examples of my work" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm="6">
+                            <HomeCard title="About Me" linkUrl="about-me" description="Learn about the man behind the site" />
+                        </Col>
+                        <Col sm="6">
+                            <HomeCard title="Contact Me" linkUrl="contact" description="Get in touch" />
+                        </Col>
+                    </Row>
+                    
+                </Container>
             </div>
         );
     }
 }
 
-function LinkCard(props) {
+function HomeCard(props) {
     return (
-        <div>
-            <h1>{props.title || "Untitled"}</h1>
-            <p>{props.description || "No Description"}</p>
-            <p><Link to={props.linkUrl || "#"}>{props.linkText || "Click here"}</Link></p>
-        </div>
+        <Card body>
+            <CardTitle tag="h4">
+                {props.title || "Untitled"}
+            </CardTitle>
+            <CardBody>
+                <CardText>{props.description || "No Description"}</CardText>
+                <Link to={props.linkUrl || "#"}><Button>{props.linkText || "Click here"}</Button></Link>
+            </CardBody>
+        </Card>
     );
 }

@@ -9,7 +9,9 @@ import { Portfolio } from './components/Portfolio';
 import { Resume } from './components/Resume';
 import { CreateResume } from './components/CreateResume';
 import './custom.css';
-
+//import './components/styles/colors.scss';
+//import './components/styles/test.scss';
+import './components/styles/custom.scss';
 
 export default class App extends Component {
   static displayName = App.name;
