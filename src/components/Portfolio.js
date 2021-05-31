@@ -1,35 +1,48 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import BaseComponent from './BaseComponent'
+import { Container, Row, Col, Button, Jumbotron } from 'reactstrap';
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
-export class Portfolio extends Component {
+export class Portfolio extends BaseComponent {
     static displayName = Portfolio.name;
 
     render() {
         return (
             <Container>
                 <h1>Portfolio</h1>
-                <p><em>This is where I'll put my portfolio stuff.  What follows is a placeholder.</em></p>
-
                 <Row>
                     <Col sm="6">
                         <PortfolioCard title="NoahWright.dev" description="My developer site, hosted on GitHub and built with
                         React." />
                     </Col>
                     <Col sm="6">
-                        <PortfolioCard title="Google" description="Google, a site I *definitely* made.  Actually this
-                        is just to make sure off-site links work just fine." linkUrl="http://www.google.com" />
+                        <PortfolioCard title="Level Up Learning" description="A learning app I've been working on to help my kids
+                        work on school.  It came in very handy during the COVID-19 learn-from-home nightmare of 2020"
+                        linkUrl="https://github.com/NoahWright87/LevelUpLearning" linkText="View on GitHub" />
+                    </Col>
+                </Row>
+                <Jumbotron flex>
+                    <h3>Games</h3>
+                    <p>Wanting to make video games is how I originally got into programming.  These are some little projects I
+                        made using Unity game engine.</p>
+                </Jumbotron>
+                <Row>
+                    <Col sm="6">
+                        <PortfolioCard title="Dot Dodger" description="Simple game where you (the blue dot) tries to avoid the evil
+                        red dots for as long as you can.  Gain extra points for getting dangerously close to enemies.  Made in Unity"
+                            linkUrl="https://gamesdonewright.itch.io/dot-dodger" linkText="View on itch.io" />
+                    </Col>
+                    <Col sm="6">
+                        <PortfolioCard title="Missile Defender" description="Basic Missile Command clone, made in Unity."
+                            linkUrl="https://gamesdonewright.itch.io/missile-defender" linkText="View on itch.io" />
                     </Col>
                 </Row>
                 <Row>
                     <Col sm="6">
-                        <PortfolioCard title="Placeholder" description="Description of Placeholder project" />
-                    </Col>
-                    <Col sm="6">
-                        <PortfolioCard title="Another Placeholder" description="Description of Another Placeholder project" />
+                        <PortfolioCard title="Paddles 'n Balls" description="Pong clone, made in Unity"
+                            linkUrl="https://gamesdonewright.itch.io/paddles-n-balls" linkText="View on itch.io" />
                     </Col>
                 </Row>
-
             </Container>
         );
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 import { Container, Row, Col, Jumbotron, CardSubtitle, List } from 'reactstrap';
 import { Badge, Card, CardBody, CardTitle } from 'reactstrap';
 import resumeData from './data/resume.json';
@@ -6,7 +7,7 @@ var _ = require('lodash');
 
 const groupings = _.chain(resumeData).groupBy('category').map((resumeItems, category) => ({ resumeItems, category })).value();
 
-export class Resume extends Component {
+export class Resume extends BaseComponent {
     static displayName = Resume.name;
 
     render() {
@@ -16,7 +17,6 @@ export class Resume extends Component {
                 <p><i>NOTE: This resume is generated programmatically from <a href="resume.json" target="_blank">this JSON</a>.</i></p>
                 {groupings.map(g => (
                     <Container>
-                        <hr />
                         <Jumbotron className="display-4">
                             {g.category}
                         </Jumbotron>

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 /*import { Formik, Form, Field, ErrorMessage, } from 'formik';*/
 import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
-export class Contact extends Component {
+export class Contact extends BaseComponent {
     static displayName = Contact.name;
 
     render() {

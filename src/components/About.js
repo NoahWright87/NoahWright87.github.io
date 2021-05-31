@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
-export class About extends Component {
+export class About extends BaseComponent {
     static displayName = About.name;
 
     render() {

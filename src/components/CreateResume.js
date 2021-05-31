@@ -1,7 +1,8 @@
 ﻿import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 import { useFormik, Formik, Form, Field, ErrorMessage } from 'formik';
 
-export class CreateResume extends Component {
+export class CreateResume extends BaseComponent {
     static displayName = CreateResume.name;
 
     //constructor(props) {

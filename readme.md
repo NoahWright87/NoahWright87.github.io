@@ -7,17 +7,16 @@ As I add features, I will list them here.
 - Resume generated from JSON file
 
 # Work in Progress
-I'm working on this in my (very limited) spare time, so pardon the dust.  Here are the changes I hope to see coming down the pipeline.
+I'm working on this in my (very limited) spare time, so pardon the dust.  Here are the changes coming down the road.
 
 ## 🥳 Recent Changes
-- Revamped look and feel.  Used reactstrap to bootstrap-ify the site.  Still not the prettiest, but it *is* responsive.  Pages changed:
-- Fixed copyright symbol in footer and made year based on current year.
-- Resume download should work now
+Current:
+- Update Portfolio page to have some old Unity-based games and my current GitHub project: Level Up Learning.
 
 ## ⌚ Future Changes
 Some of the below will be selected for the next commit once I'm done with the above:
 - A better favicon that isn't just my initials.
-- Portfolio - add links to actual stuff
+- Portfolio should have pictures of things
 - Contact - make form actually function
 - Parallax background somewhere, because they're cool 😎
 - A color scheme of some sort

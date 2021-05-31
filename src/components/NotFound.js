@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 
-export class NotFound extends Component {
+export class NotFound extends BaseComponent {
     static displayName = NotFound.name;
 
     render() {

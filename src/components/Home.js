@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import BaseComponent from './BaseComponent'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 //TODO: Create "howitsmade" component with popover, put it on this page as a "how it's done" and explain the technology used
 //  Then use it elsewhere as well
 
-export class Home extends Component {
+export class Home extends BaseComponent {
     static displayName = Home.name;
 
     render() {
@@ -16,7 +17,7 @@ export class Home extends Component {
                         <h1>I'm Noah - a software developer</h1>
                         <p>Take a look around and see what I've been up to.  Think I'd be a good addition
                             to your dev team or open source project?</p>
-                        <Button>Hit me up! //TODO: Actually link somewhere</Button>
+                        <Link to="contact"><Button>Hit me up!</Button></Link>
                     </Jumbotron>
                 </Container>
                 <Container>
